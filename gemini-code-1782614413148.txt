@@ -1,0 +1,8 @@
+podcast-manager/
+├── src/
+│   ├── models/        # Interfaces e tipos (ex: Podcast)
+│   ├── controllers/   # Lógica de resposta das rotas
+│   ├── utils/         # Funções auxiliares (ex: parse de corpo da requisição)
+│   └── server.ts      # Ponto de entrada e servidor HTTP nativo
+├── package.json
+└── tsconfig.json
